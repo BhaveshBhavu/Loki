@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,600&family=Macondo&family=Playfair+Display:ital,wght@0,700;1,400&family=Roboto+Mono:ital,wght@0,300;1,400&family=Roboto+Slab:wght@200;400&family=Tapestry&display=swap');
+
+  /*
+font-family: 'EB Garamond', serif;
+font-family: 'Macondo', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', cursive;
+
+
+
+font-family: 'Tapestry', cursive;
+
+*/
+
+
+body {
+    font-size: 15pt;
+   background-color: White ;
+    margin: 0px;
+    padding: 0px;
+
+}
+/* 
+
+
+*/
+header{
+  background-color: #fff;
+  width: 100%;
+  height: 650px;
+  position: relative;
+  background-size:  100% 600px ;
+  background-repeat: no-repeat;
+  border-bottom: solid ;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+/*background: linear-gradient( 30deg,#1f1f1f, black, black,#171717,#242424,#242424,#1f1f1f) ;*/
+ background: linear-gradient( 30deg,      rgba(0, 0, 0, 0.3),   rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1),   rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1),   rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)) ;
+  background-color: transparent;
+  border-bottom: solid rgba(0, 0, 0, 0.2);
+  padding: 0px ;
+  height: 90px;
+  transition: 0.5s;
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+  
+}
+
+
+nav log img{
+  width: 210px;
+  height: 65px;
+  border: solidy green;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  border: solidh yellow;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+nav ul li{
+  margin:10px;
+  color: white;
+  padding: 6px 10px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+img_box{
+  position: absolute;
+  left: 1px;
+  top: 10px;
+  width: 500px;
+  height: 500px;
+  border: solidy;
+  background-image: url("https://www.pngall.com/wp-content/uploads/2016/05/Loki-Free-PNG-Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  
+
+   }
+
+
+img_box::before{
+  content: "";
+  border: solidy yellow;
+  position: absolute;
+  top: 500px;
+  width: 500px;
+  height: 40px;
+  background-color: gold ;
+  
+  border-bottom-right-radius: 50px; 
+}
+
+img_box::after{
+  content: "";
+  border: solidy yellow;
+  position: absolute;
+  top: 545px;
+  width: 420px;
+  height: 40px;
+  background-color: gold;
+  
+  border-bottom-right-radius: 50px; 
+}
+
+img_box_2{
+  position: absolute;
+  right: 40px;
+  top: 260px;
+  width: 400px;
+  height: 300px;
+  border: solidy ;
+  font-size: 15px;
+  text-align: center;
+  
+
+   }
+
+img_box_2 h1 b{
+  
+  position: relative;
+  font-size: 40px;
+}
+
+
+men_box{
+  border: solidy ;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  margin-top: 20px ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+men_box iframe{
+  width: 350px;
+  height: 250px;
+  margin: 30px;
+}
+
+
+@media (max-width: 450px) {
+  
+nav log img{
+  width: 70px;
+  height: 45px;
+  border: solidy green;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+ height: 50px;
+}
+
+menu ul{
+  display: none;
+}  
+menu i{
+  display: block;
+  font-size: 28px;
+}
+
+menu ul{
+  position: absolute;
+  top: 40px;
+  right: 30px;
+
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 385;
+  width: 100px;
+  padding: 0px;
+  border-radius: 3px;
+}
+
+ .menu_k{
+   display: block;
+   color: blue;
+ }
+
+img_box{
+  position: absolute;
+  left: 1px;
+  top: 10px;
+  width: 300px;
+  height: 300px;
+  border: solidg ;
+  background-image: url("https://www.pngall.com/wp-content/uploads/2016/05/Loki-Free-PNG-Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  
+
+   }  
+  
+img_box_2{
+  position: absolute;
+  right: 0px;
+  top: 430px;
+  width: 300px;
+  height: 200px;
+  border: solidt ;
+  font-size: 9px;
+  text-align: center;
+  
+
+ }
+ 
+ img_box_2 h1{
+   margin: 3px;
+ }
+ 
+ img_box_2 h1 b{
+  position: relative;
+  font-size: 30px;
+}
+
+#id{
+  margin-top: 10px ;
+}
+
+ 
+img_box::before{
+  content: "";
+  border: solidy yellow;
+  position: absolute;
+  top: 300px;
+  width: 300px;
+  height: 26px;
+  background-color: gold ;
+  border-bottom-right-radius: 50px; 
+}
+
+img_box::after{
+  content: "";
+  border: solidy yellow;
+  position: absolute;
+  top: 329px;
+  width: 250px;
+  height: 26px;
+  background-color: gold;
+  border-bottom-right-radius: 50px; 
+}
+
+
+
+  
+}
+
+
+
+
